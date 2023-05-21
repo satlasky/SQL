@@ -54,7 +54,7 @@ CREATE TABLE `media_types`(
 CREATE TABLE `media`(
 	`id` SERIAL PRIMARY KEY,
     `media_type_id` BIGINT UNSIGNED,
-    `user_id BIGINT UNSIGNED NOT NULL,
+    `user_id` BIGINT UNSIGNED NOT NULL,
   	`body` text,
     `filename` VARCHAR(255),
     `size` INT,
